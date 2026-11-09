@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log*
+.env
+.git
+.DS_Store
+.vscode
+.idea
+coverage
+logs
+*.log
+dist
+tmp
+.cache
+*.zip

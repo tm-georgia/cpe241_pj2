@@ -1,0 +1,6 @@
+{
+  "name": "Internal Banking Management System",
+  "description": "A professional Internal Banking Management System with customer, account, charges, loan management, and transactions modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

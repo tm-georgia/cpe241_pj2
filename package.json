@@ -1,0 +1,14 @@
+{
+  "name": "banking-management-system",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.19.0 <22.0.0 || >=22.12.0"
+  },
+  "scripts": {
+    "docker:db:start": "node scripts/docker-db-start.js",
+    "docker:db:stop": "node scripts/docker-db-stop.js",
+    "docker:db:check": "node scripts/docker-db-check.js",
+    "db:reset": "node database/setup_db.js --reset",
+    "sync": "node scripts/check-and-pull.js"
+  }
+}
